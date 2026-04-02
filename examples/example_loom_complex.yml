@@ -1,0 +1,325 @@
+connectors:
+  J1:
+    type: iGrid Receptacle Dual Row
+    pincount: 40
+    manufacturer: '<a href="https://www.molex.com/">Molex</a>'
+    mpn: '<a href="https://www.molex.com/en-us/products/part-detail/5016462400">5016462400</a>'
+    subtype: Female
+    pinlabels: [
+        OUT_2,              # 1
+        OUT_1,              # 2
+        ANALOG_IN_4_20MA,  # 3
+        GND,               # 4
+        IN_4,              # 5
+        OUT_3,             # 6
+        OUT_4,             # 7
+        PWR_24V,           # 8
+        GND,               # 9
+        IN_1,              # 10
+        IN_2,              # 11
+        ANALOG_OUT_4_20MA, # 12
+        GND,               # 13
+        IN_3,              # 14
+        GND,               # 15
+        LEAK_SENSOR_IN,    # 16
+        LEAK_SENSOR_5V,    # 17
+        DOOR_SENSOR_IN,    # 18
+        GND,               # 19
+        GND,               # 20
+        GND,               # 21
+        USB_DP,            # 22
+        GND,               # 23
+        USB_DN,            # 24
+        GND,               # 25
+        USB_5V,            # 26
+        GND,               # 27
+        SERVICE_WC,        # 28
+        MOTOR_ALARM_2,     # 29
+        SERVICE_SCL,       # 30
+        MOTOR_ALARM_1,     # 31
+        SERVICE_SDA,       # 32
+        MOTOR_BRAKE,       # 33
+        MOTOR_MODBUS_P,    # 34
+        MOTOR_ENABLE,      # 35
+        MOTOR_MODBUS_N,    # 36
+        GND,               # 37
+        GND,               # 38
+        PWR_36V_IN,        # 39
+        PWR_36V_IN         # 40
+      ]
+    additional_components:
+      -
+        type: Crimp
+        subtype: iGrid Female Crimp Terminal 22-26 AWG
+        qty: 27 
+        manufacturer: '<a href="https://www.molex.com/">Molex</a>'
+        mpn: '<a href="https://www.molex.com/en-us/products/part-detail/5016471000">5016471000</a>'
+      -
+        type: Crimp
+        subtype: iGrid Female Crimp Terminal 26-28 AWG
+        qty: 2
+        manufacturer: '<a href="https://www.molex.com/">Molex</a>'
+        mpn: '<a href="https://www.molex.com/en-us/products/part-detail/5016481000">5016481000</a>'
+  J2:
+    type: iGrid Receptacle Dual Row
+    pincount: 12
+    manufacturer: '<a href="https://www.molex.com/">Molex</a>'
+    mpn: '<a href="https://www.molex.com/en-us/products/part-detail/5016462200">5016462200</a>'
+    subtype: Female
+    pinlabels:
+      [
+        OUT_2,              # 1
+        ANALOG_OUT_4_20MA,  # 2
+        PWR_24V,            # 3
+        IN_4,               # 4
+        GND,                # 5
+        OUT_3,              # 6
+        ANALOG_IN_4_20MA,   # 7
+        OUT_4,              # 8
+        IN_2,               # 9
+        OUT_1,              # 10
+        IN_3,               # 11
+        IN_1                # 12
+      ]
+    additional_components:
+      -
+        type: Crimp
+        subtype: iGrid Female Crimp Terminal 22-26 AWG
+        qty_multiplier: populated 
+        manufacturer: '<a href="https://www.molex.com/">Molex</a>'
+        mpn: '<a href="https://www.molex.com/en-us/products/part-detail/5016471000">5016471000</a>'  
+  J3:
+    type: TE Connectivity AMP CT 2mm Receptacle
+    pincount: 11
+    manufacturer: '<a href="https://www.te.com/">TE Connectivity</a>'
+    mpn: '<a href="https://www.te.com/en/product-1-179228-1.html">1-179228-1</a>'
+    subtype: Female
+    pinlabels: [
+        MOTOR_MODBUS_P,    # 1
+        MOTOR_MODBUS_N,    # 2
+        MOTOR_ENABLE,      # 3
+        MOTOR_BRAKE,       # 4
+        NC,                # 5
+        MOTOR_ALARM_1,     # 6
+        MOTOR_ALARM_2,     # 7
+        NC,                # 8
+        NC,                # 9
+        NC,                # 10
+        GND                # 11
+      ]
+    additional_components:
+      -
+        type: Crimp
+        subtype: Milli-Grid Crimp Terminal 24-30 AWG
+        qty_multiplier: populated 
+        manufacturer: '<a href="https://www.molex.com/">Molex</a>'
+        mpn: '<a href="https://www.molex.com/en-us/products/part-detail/503948051">503948051</a>'
+  
+  J4:
+    type: Mini-SPOX Receptacle
+    pincount: 10
+    manufacturer: '<a href="https://www.molex.com/">Molex</a>'
+    mpn: '<a href="https://www.molex.com/en-us/products/part-detail/50375083">50375083</a>'
+    subtype: Female
+    pinlabels: [
+      USB_GND, # 1
+      LEAK_SENSOR_5V,  # 2
+      USB_DP,  # 3
+      LEAK_SENSOR_OUT, # 4
+      USB_DN,  # 5
+      DOOR_SENSOR_OUT, # 6
+      USB_5V,  # 7
+      SENSOR_GND, # 8
+      FAN_V_POS, # 9
+      FAN_V_NEG  # 10 
+    ]
+    additional_components:
+      -
+        type: Crimp
+        subtype: Mini-SPOX Crimp Terminal 28-22 AWG
+        qty_multiplier: populated 
+        manufacturer: '<a href="https://www.molex.com/">Molex</a>'
+        mpn: '<a href="https://www.molex.com/en-us/products/part-detail/08701039">08701039</a>'
+  J5:
+    type: Keystone Electronics 7312
+    pincount: 2
+    manufacturer: '<a href="https://www.keyelco.com/">Keystone Electronics</a>'
+    mpn: '<a href="https://www.keyelco.com/product.cfm/product_id/1270">1270</a>'
+    subtype: Lug
+    pinlabels: [PWR_36V_IN, GND]
+  J6:
+    type: Mini-Fit Family Power Connector
+    pincount: 2
+    manufacturer: '<a href="https://www.molex.com/">Molex</a>'
+    mpn: '<a href="https://www.molex.com/en-us/products/part-detail/39012025/">39012025</a>'
+    subtype: Female
+    pinlabels: [PWR_36V_IN, GND]
+    additional_components:
+      -
+        type: Crimp
+        subtype: Crimp, Mini-Fit Family Power Connector Crimp
+        qty: 2
+        manufacturer: '<a href="https://www.molex.com/">Molex</a>'
+        mpn: '<a href="https://www.molex.com/en-us/products/part-detail/39000038">39000038</a>'
+  J7:
+    type: Molex KK 2.54mm Receptacle
+    pincount: 2
+    manufacturer: '<a href="https://www.molex.com/">Molex</a>'
+    mpn: '<a href="https://www.molex.com/en-us/products/part-detail/22011022">22-01-1022</a>'
+    subtype: Female
+    pinlabels:
+      [
+        FAN_V_NEG,  # 1
+        FAN_V_POS   # 2
+      ]
+    additional_components:
+      -
+        type: Crimp
+        subtype: KK 254 Crimp 30-22 AWG
+        qty: 2
+        manufacturer: '<a href="https://www.molex.com/">Molex</a>'
+        mpn: '<a href="https://www.molex.com/en-us/products/part-detail/08500113">08500113</a>'
+cables:
+  W1-I/O-Connector:
+    category: bundle
+    gauge: 24 AWG
+    length: 150 mm
+    show_equiv: false
+    #wirecount: 12
+    colors: [GN, YE, RD, WH, BK, BU, OG, GY, PK, BN, VT, BKBU]
+    type: UL1007
+    shield: false
+    manufacturer: '<a href="https://www.alphawire.com/">Alpha Wire</a>'
+    mpn: [6712 GN001, 6712 YE001, 6712 RD001, 6712 WH001, 6712 BK001, 6712 BU001, 6712 OG001, 6712 GY001, 6712 PK001, 6712 BN001, 6712 VT001, 6712 BKBU001]
+    #mpn: '<a href="https://www.alphawire.com/products/wire/ecogen/ecowire/6712">6712</a>'
+    additional_components:
+      - type: Sleeve 
+        subtype: Braided nylon, black
+        qty_multiplier: length
+        unit: mm
+  W2-USB:
+    gauge: 28 AWG
+    length: 400 mm
+    show_equiv: true
+    shield: true
+    wirecount: 4
+    colors: [BK, GN, WH, RD]
+    type: UL2725 
+    manufacturer: '<a href="https://cnctech.us/">cnctech</a>'
+    mpn: '<a href="https://cnctech.us/productdetails.asp?ID=8357">2725-2824-BL-01000-A</a>'
+  W3-Sensor:
+    gauge: 24 AWG
+    length: 400 mm
+    show_equiv: true
+    wirecount: 4
+    colors: [RD, GN, WH, BK]
+    type: UL1007
+    manufacturer: '<a href="https://www.alphawire.com/">Alpha Wire</a>'
+    mpn: '<a href="https://www.alphawire.com/products/wire/ecogen/ecowire/6712">6712</a>'
+    additional_components:
+      - type: Sleeve 
+        subtype: Braided nylon, black
+        qty_multiplier: length
+        unit: mm
+  W4-Motor:
+    gauge: 24 AWG
+    length: 210 mm
+    show_equiv: true
+    wirecount: 7
+    colors: [RD, BK, GN, WH, YE, BU, GY]
+    type: UL1007
+    manufacturer: '<a href="https://www.alphawire.com/">Alpha Wire</a>'
+    mpn: '<a href="https://www.alphawire.com/products/wire/ecogen/ecowire/6712">6712</a>'
+    additional_components:
+      - type: Sleeve 
+        subtype: Braided nylon, black
+        qty_multiplier: length
+        unit: mm
+  W5-PCB-Power:
+    gauge: 24 AWG
+    length: 275 mm
+    show_equiv: true
+    shield: False
+    wirecount: 2
+    colors: [RD, BK]
+    type: UL1007
+    manufacturer: '<a href="https://www.alphawire.com/">Alpha Wire</a>'
+    mpn: '<a href="https://www.alphawire.com/products/wire/ecogen/ecowire/6712">6712</a>'
+  W6-Motor-Power:
+    gauge: 18 AWG
+    show_equiv: true
+    length: 375 mm
+    colors: [RD, BK]
+    wirecount: 2
+    shield: false
+    type: UL1007
+    manufacturer: '<a href="https://www.alphawire.com/">Alpha Wire</a>'
+    mpn: '<a href="https://www.alphawire.com/products/wire/ecogen/ecowire/6715">6715</a>'
+  W7-Fan:
+    gauge: 24 AWG
+    show_equiv: true
+    length: 165 mm
+    colors: [BK, RD]
+    wirecount: 2
+    shield: false
+    type: UL1007
+    manufacturer: '<a href="https://www.alphawire.com/">Alpha Wire</a>'
+    mpn: '<a href="https://www.alphawire.com/products/wire/ecogen/ecowire/6712">6712</a>'
+
+
+connections:
+  -
+    - J1: [1,12,8,5,4,6,3,7,11,2,14,10]
+    - W1-I/O-Connector: [1,2,3,4,5,6,7,8,9,10,11,12]
+    - J2: [1,2,3,4,5,6,7,8,9,10,11,12]
+  -
+    - J1: [20,22,24,26,20]
+    - W2-USB: [1,2,3,4,s]
+    - J4: [1,3,5,7,1]
+  -
+    - J1: [17,16,18,19]
+    - W3-Sensor: [1,2,3,4]
+    - J4: [2,4,6,8]
+  -
+    - J1: [34,36,35,33,31,29,27]
+    - W4-Motor: [1,2,3,4,5,6,7]
+    - J3: [1,2,3,4,6,7,11]
+  -
+    - J1: [40,38]
+    - W5-PCB-Power: [1,2]
+    - J5: [1,2]
+  -
+    - J5: [1,2]
+    - W6-Motor-Power: [1,2]
+    - J6: [1,2]
+  -
+    - J4: [10,9]
+    - W7-Fan: [1,2]
+    - J7: [1,2]
+
+
+metadata:
+  title: example_loom
+  pn: 00XXXX
+
+  authors:
+    Created:
+      name: JP
+      date: 31-03-2026
+    Checked:
+      name: SH
+      date:
+    Approved:
+      name: WM
+      date:
+
+
+  revisions:
+    A:
+      name: 
+      date: 31-03-2026
+      changelog: First Created
+
+  template:
+    name: din-6771
+    sheetsize: A3

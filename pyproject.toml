@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wireviz2kicad"
+version = "0.1.0"
+description = "Convert WireViz outputs into KiCad schematic sheets"
+readme = "README.md"
+
+requires-python = ">=3.8"
+
+dependencies = [
+	"PyYAML>=6.0.3",
+	"typer[all]>=0.24.1",
+	"Pillow>=12.2.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[tool.pytest]

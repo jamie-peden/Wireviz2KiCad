@@ -1,0 +1,52 @@
+cables:
+  W1:
+    gauge: 0.25 mm2
+    show_equiv: true
+    length: 0.2
+    color_code: IEC
+    wirecount: 6
+    category: bundle
+    type: UL1007
+    manufacturer: '<a href="https://www.alphawire.com/">Alpha Wire</a>'
+    mpn: '<a href="https://www.alphawire.com/products/wire/ecogen/ecowire/6712">6712</a>'
+
+connectors:
+  F:
+    style: simple
+    type: Crimp ferrule
+    manufacturer: '<a href="https://www.molex.com/">Molex</a>'
+    mpn: '<a href="https://www.molex.com/en-us/products/part-detail/08500113">08500113</a>'
+
+connections:
+  -
+    - F.
+    - W1: [1-6]
+    - F.
+
+metadata:
+  title: example_loom
+  pn: 00XXXX
+
+  authors:
+    Created:
+      name: JP
+      date: 31-03-2026
+    Checked:
+      name: SH
+      date:
+    Approved:
+      name: WM
+      date:
+  # company: Test 1234
+
+  revisions:
+    A:
+      name: 
+      date: 31-03-2026
+      changelog: First Created
+
+  template:
+    name: din-6771
+    sheetsize: A3
+
+

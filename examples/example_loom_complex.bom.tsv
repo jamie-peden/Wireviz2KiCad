@@ -1,0 +1,32 @@
+Id	Description	Qty	Unit	Designators	Manufacturer	MPN
+1	Cable, UL1007, 2 x 18 AWG	375	mm	W6-Motor-Power	Alpha Wire	6715
+2	Cable, UL1007, 2 x 24 AWG	440	mm	W5-PCB-Power, W7-Fan	Alpha Wire	6712
+3	Cable, UL1007, 4 x 24 AWG	400	mm	W3-Sensor	Alpha Wire	6712
+4	Cable, UL1007, 7 x 24 AWG	210	mm	W4-Motor	Alpha Wire	6712
+5	Cable, UL2725, 4 x 28 AWG shielded	400	mm	W2-USB	cnctech	2725-2824-BL-01000-A
+6	Connector, Keystone Electronics 7312, Lug, 2 pins	1		J5	Keystone Electronics	1270
+7	Connector, Mini-Fit Family Power Connector, Female, 2 pins	1		J6	Molex	39012025
+8	Connector, Mini-SPOX Receptacle, Female, 10 pins	1		J4	Molex	50375083
+9	Connector, Molex KK 2.54mm Receptacle, Female, 2 pins	1		J7	Molex	22-01-1022
+10	Connector, TE Connectivity AMP CT 2mm Receptacle, Female, 11 pins	1		J3	TE Connectivity	1-179228-1
+11	Connector, iGrid Receptacle Dual Row, Female, 12 pins	1		J2	Molex	5016462200
+12	Connector, iGrid Receptacle Dual Row, Female, 40 pins	1		J1	Molex	5016462400
+13	Crimp, Crimp, Mini-Fit Family Power Connector Crimp	2		J6	Molex	39000038
+14	Crimp, KK 254 Crimp 30-22 AWG	2		J7	Molex	08500113
+15	Crimp, Milli-Grid Crimp Terminal 24-30 AWG	7		J3	Molex	503948051
+16	Crimp, Mini-SPOX Crimp Terminal 28-22 AWG	10		J4	Molex	08701039
+17	Crimp, iGrid Female Crimp Terminal 22-26 AWG	39		J1, J2	Molex	5016471000
+18	Crimp, iGrid Female Crimp Terminal 26-28 AWG	2		J1	Molex	5016481000
+19	Sleeve, Braided nylon, black	760	mm	W1-I/O-Connector, W3-Sensor, W4-Motor		
+20	Wire, UL1007, 24 AWG, BK	150	mm	W1-I/O-Connector	Alpha Wire	6712 BK001
+21	Wire, UL1007, 24 AWG, BKBU	150	mm	W1-I/O-Connector	Alpha Wire	6712 BKBU001
+22	Wire, UL1007, 24 AWG, BN	150	mm	W1-I/O-Connector	Alpha Wire	6712 BN001
+23	Wire, UL1007, 24 AWG, BU	150	mm	W1-I/O-Connector	Alpha Wire	6712 BU001
+24	Wire, UL1007, 24 AWG, GN	150	mm	W1-I/O-Connector	Alpha Wire	6712 GN001
+25	Wire, UL1007, 24 AWG, GY	150	mm	W1-I/O-Connector	Alpha Wire	6712 GY001
+26	Wire, UL1007, 24 AWG, OG	150	mm	W1-I/O-Connector	Alpha Wire	6712 OG001
+27	Wire, UL1007, 24 AWG, PK	150	mm	W1-I/O-Connector	Alpha Wire	6712 PK001
+28	Wire, UL1007, 24 AWG, RD	150	mm	W1-I/O-Connector	Alpha Wire	6712 RD001
+29	Wire, UL1007, 24 AWG, VT	150	mm	W1-I/O-Connector	Alpha Wire	6712 VT001
+30	Wire, UL1007, 24 AWG, WH	150	mm	W1-I/O-Connector	Alpha Wire	6712 WH001
+31	Wire, UL1007, 24 AWG, YE	150	mm	W1-I/O-Connector	Alpha Wire	6712 YE001

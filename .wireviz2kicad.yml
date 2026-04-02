@@ -1,0 +1,40 @@
+# Sample global config for wireviz2kicad
+# Place this file at the project root to provide defaults for all sheets.
+
+title_block:
+  title: "Default Project Title"
+  pn: "00XXXX"
+  rev: "1"
+  company: "Acme Corp"
+  engineer: "JP"
+  checked: "SH"
+  approved: "WM"
+
+# Rendering and layout
+dpi: 300
+margin_mm: 30
+
+# When >0, fraction of page width at which BOM will be split into a
+# separate file. Set to 0 to keep BOM inline always.
+bom_threshold: 0.75
+
+# Image placement and scaling
+image_align: top-left   # options: top-left, center, fit-width
+max_image_scale: 2.0
+
+# Force behaviors (CLI flags override these)
+force_inline_bom: true
+force_split_bom: false
+
+# Where to write outputs when `--output-dir` not provided
+output_dir: generated
+
+# Optional title-block template (uncomment to use). Use placeholders:
+# {pn}, {part_number}, {engineer}, {checked}, {approved}, {title}, {company}, {date}, {rev}
+title_block_template: |
+ (comment 1 "{pn}")
+ (comment 2 "{engineer}")
+ (comment 3 "{checked}")
+ (comment 4 "{approved}")
+ (company "{company}")
+ (title "{title}")
